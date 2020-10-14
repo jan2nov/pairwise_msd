@@ -1,0 +1,19 @@
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+#Compilation output
+pairwise-msd
+
+#directories
+/output
+
+# Other
+*.swp
+*~
+*.sav
+*.old
+*.new
+*.ori
+*.dat
