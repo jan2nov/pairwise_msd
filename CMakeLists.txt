@@ -11,7 +11,7 @@ file(GLOB_RECURSE SOURCE_FILES "src/*.c")
 include_directories(include/)
 
 # Generic flags for GCC compiler
-list(APPEND CMAKE_C_FLAGS "-std=c99 -O3 -Wall -Wpedantic -Wextra -fopenmp -ffast-math -lm")
+list(APPEND CMAKE_C_FLAGS "-std=c99 -O3 -g -Wall -Wpedantic -Wextra -fopenmp -ffast-math -lm")
 
 #Generic flags for ICC compiler
 #list(APPEND CMAKE_C_FLAGS "-qopenmp -g -fp-model fast=2 -std=c99 -O2 -fma -align -finline-functions -no-prec-div -ipo -DOPEMP_SPEC -qopt-streaming-stores=never")
